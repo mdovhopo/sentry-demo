@@ -5,8 +5,8 @@ import * as Tracing from "@sentry/tracing";
 
 const app = express();
 
-const SENTRY_KEY = '56e4cb11ad4843bb9c60ded08df91ac4';
-const SENTRY_PROJECT_ID = '5829359';
+const SENTRY_KEY = '<sentry_key>';
+const SENTRY_PROJECT_ID = '<sentry_project_id>';
 
 Sentry.init({
   dsn: `https://${SENTRY_KEY}@o866123.ingest.sentry.io/${SENTRY_PROJECT_ID}`,

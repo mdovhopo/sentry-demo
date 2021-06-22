@@ -7,8 +7,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import intlMessages from './i18n';
 
-const SENTRY_KEY = 'eb92699246554a7585812beb559e3501';
-const SENTRY_PROJECT_ID = '5829357';
+const SENTRY_KEY = '<sentry_key>';
+const SENTRY_PROJECT_ID = '<sentry_project_id>';
 
 Sentry.init({
   dsn: `https://${SENTRY_KEY}@o866123.ingest.sentry.io/${SENTRY_PROJECT_ID}`,
