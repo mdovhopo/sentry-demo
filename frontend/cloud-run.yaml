@@ -1,0 +1,14 @@
+name: app-name
+memory: 256Mi
+cpu: 200m
+min-instances: 1
+
+platform:
+  gke:
+    connectivity: external
+    domain-mappings:
+      prod:
+        - app-name.retailsvc.com
+      staging:
+        - app-name.retailsvc.com
+    opa-enabled: false

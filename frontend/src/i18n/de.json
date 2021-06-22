@@ -1,0 +1,13 @@
+{
+  "search": "Suche",
+  "loading": "Belastung...",
+  "cancel": "Stornieren",
+  "title": "Titel",
+  "description": "Beschreibung",
+  "home.title": "Startseite",
+  "home.todo": "TODO",
+  "todo.edit": "Bearbeiten",
+  "todo.remove": "Entfernen",
+  "todo.addItem": "Add Item",
+  "todo.editItem": "Edit Item"
+}

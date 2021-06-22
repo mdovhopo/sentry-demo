@@ -1,0 +1,13 @@
+{
+  "search": "Search",
+  "loading": "Loading...",
+  "cancel": "Cancel",
+  "title": "Title",
+  "description": "Description",
+  "home.title": "Homepage",
+  "home.todo": "TODO",
+  "todo.edit": "Edit",
+  "todo.remove": "Remove",
+  "todo.addItem": "Add Item",
+  "todo.editItem": "Edit Item"
+}
